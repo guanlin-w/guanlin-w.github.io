@@ -1,0 +1,128 @@
+body {
+    background-color: #423b38;
+    /*background-image: url("./images/bruh.png");*/
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
+h2 {
+    color: #bf5700;
+    margin: 10px 0px;  
+    border-bottom: solid;
+    border-width: 4px;
+    padding: 2px 0px;
+    font-size: 2.25em;
+}
+
+p {
+    color: #f2ede3;
+    width: auto;
+    height: auto;
+    margin: 0px 40px;
+    text-align: justify;
+    vertical-align: middle;
+    text-indent: 0px;
+    line-height: 1.5;    
+    font-size: 1em;
+}
+
+div.content-block {
+    background-color: rgb(40, 55, 60);
+    width: auto;
+    height: auto;
+    border: solid;
+    border-width: thin;
+    border-color: #f2ede3;
+    padding: 10px 25px;
+    margin: 10px 25px 0px;
+
+}
+
+div.content-block img {
+    float:left
+}
+
+
+
+a:link{   
+    color:#30bced;
+
+}
+
+a:visited{
+    color:#9693f1;
+} 
+
+
+
+div.project{
+    width: auto;
+    height: auto;
+    background-color: rgb(40, 55, 60);
+    margin: 0px;
+    padding: 25px 0px 25px 25px;
+    box-sizing: border-box;
+}
+
+
+div.drawer-container{
+    width: auto;
+    height: auto;
+    background-color: rgb(40, 55, 60);
+    margin: 25px 25px 0px;
+    padding: 25px 0px 25px 25px;
+    box-sizing: border-box;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #f2ede3;
+}
+
+div.drawer-container:hover {
+    background-color: rgba(149, 221, 250,0.5);
+}
+
+div.drawer-container p {
+    margin: 0px;
+    font-size: 1.1em;
+}
+
+
+div.projectdesc {
+    width: auto;
+    height: auto;
+    background-color: rgb(40, 55, 60); 
+    margin: 0px 25px;
+    padding: 25px;
+    display: flex;
+}
+
+div.projectdesc p{
+    text-align: justify;
+    margin: 0px 0px 0px 10px;
+}
+
+div.projectdesc img{
+    max-width: 100%;
+    height: fit-content;
+    float: left;
+    margin: 0px 25px 0px 0px;
+}
+
+div.projectdesc a {
+    margin: 25px;
+    width: auto;
+    height: auto;
+}
+
+.drawer {
+    overflow: hidden;
+}
+
+.drawer-content {
+    transition: all 1s;
+    margin-top: 0;
+}
+
+
