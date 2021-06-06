@@ -18,7 +18,7 @@ h2 {
 
 p {
     color: #f2ede3;
-    width: auto;
+    max-width: 100%;
     height: auto;
     margin: 0px 40px;
     text-align: justify;
