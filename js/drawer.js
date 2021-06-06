@@ -64,6 +64,7 @@ document.addEventListener("DOMContentLoaded",function(e) {
         height*/
     setTimeout(function(){var drawerList = document.getElementsByClassName("drawer-content");
         for(var i = 0; i < drawerList.length;i++){
+            console.log(drawerList[i].offsetHeight);
             drawerList[i].style.marginTop = '-'+drawerList[i].offsetHeight+'px'; 
         }}, 10);
 
