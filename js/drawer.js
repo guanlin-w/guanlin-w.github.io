@@ -38,7 +38,7 @@ function getCorrespondingDrawer (list, id){
 
 
 /* sets up the event listeners */
-document.addEventListener("DOMContentLoaded",function(e) {
+document.addEventListener('readystatechange',function(e) {
 
      var drawerButtons = document.getElementsByClassName("drawer-container");
      var drawerList = document.getElementsByClassName("drawer-content");
