@@ -122,7 +122,7 @@ div.projectdesc a {
 
 .drawer-content {
     transition: all 1s;
-    margin-top: 0;
+    margin-top: -100%;
 }
 
 
