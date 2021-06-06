@@ -59,14 +59,15 @@ document.addEventListener('readystatechange',function(e) {
     }
 
     /* need small delay */
+    /* need to check if we still need to do this */
     /* if this is done in the loop above without the delay, some instances
         of the page will have a negative offset of 74 instead of its actual
         height*/
-    setTimeout(function(){var drawerList = document.getElementsByClassName("drawer-content");
+   // setTimeout(function(){var drawerList = document.getElementsByClassName("drawer-content");
         for(var i = 0; i < drawerList.length;i++){
             console.log(drawerList[i].offsetHeight);
             drawerList[i].style.marginTop = '-'+drawerList[i].offsetHeight+'px'; 
-        }}, 10);
+        }//}, 10);
 
 
 });
